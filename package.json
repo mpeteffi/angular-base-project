@@ -21,7 +21,7 @@
     "babel-loader": "7.0.0",
     "babel-plugin-angularjs-annotate": "0.7.0",
     "babel-preset-es2015": "^6.24.1",
-    "bootstrap": "3.3.7",
+		"bootswatch": "3.3.7",
     "clean-webpack-plugin": "0.1.16",
     "css-loader": "0.28.0",
     "eslint": "3.19.0",
