@@ -5,15 +5,15 @@ import STATES from './config/states'
 import routes from './config/routes'
 import appRun from './config/run'
 
-import uiRouter from 'angular-ui-router'
 import components from './components'
 import filters from './filters'
+import libs from './libs'
 import services from './services'
 
 import './assets'
 
 angular.module('app', [
-	uiRouter,
+	libs,
 	components,
 	filters,
 	services,
