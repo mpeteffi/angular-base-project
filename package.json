@@ -7,21 +7,21 @@
   "scripts": {
     "build": "webpack --env=prod",
     "watch-prod": "webpack --watch --env=prod",
-		"watch-dev": "webpack --watch --env=dev",
+    "watch-dev": "webpack --watch --env=dev",
     "start": "webpack-dev-server --hot"
   },
   "dependencies": {
     "@uirouter/angularjs": "1.0.0",
     "angular": "1.5.8",
-		"angular-animate": "1.5.8",
-		"angular-ui-bootstrap": "2.5.0",
+    "angular-animate": "1.5.8",
+    "angular-ui-bootstrap": "2.5.0",
     "autoprefixer": "6.7.7",
     "babel-core": "6.24.1",
     "babel-eslint": "7.2.3",
     "babel-loader": "7.0.0",
     "babel-plugin-angularjs-annotate": "0.7.0",
     "babel-preset-es2015": "^6.24.1",
-		"bootswatch": "3.3.7",
+    "bootswatch": "3.3.7",
     "clean-webpack-plugin": "0.1.16",
     "css-loader": "0.28.0",
     "eslint": "3.19.0",
@@ -38,9 +38,9 @@
     "ng-annotate-loader": "0.5.0",
     "ngtemplate-loader": "1.3.1",
     "node-sass": "4.5.2",
-		"postcss-cssnext": "2.10.0",
+    "postcss-cssnext": "2.10.0",
+    "postcss-import": "9.1.0",
     "postcss-loader": "1.3.3",
-		"postcss-import": "9.1.0",
     "purifycss-webpack": "0.6.1",
     "resolve-url-loader": "2.0.2",
     "sass-loader": "6.0.3",
@@ -49,6 +49,6 @@
     "url-loader": "0.5.8",
     "webpack": "2.4.1",
     "webpack-dev-server": "2.4.5",
-		"webpack-merge": "4.1.0"
+    "webpack-merge": "4.1.0"
   }
 }

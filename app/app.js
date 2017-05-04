@@ -13,9 +13,9 @@ import services from './services'
 import './assets'
 
 angular.module('app', [
-	libs,
 	components,
 	filters,
+	libs,
 	services,
 ])
 .constant('AppConstants', constants)
